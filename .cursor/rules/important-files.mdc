@@ -16,7 +16,13 @@ These files define the core structure and behavior of this MCP server project. T
 
 ## Source
 
-- `src/main.ts` — MCP server entry point (Demo server with `add` tool and `greeting` resource)
+- `src/main.ts` — MCP server entry point (GitHub tools for issues and pull requests)
+- `src/github.ts` — Octokit wrapper functions for GitHub API calls
+
+## Environment
+
+- `.env` — GitHub personal access token (`GITHUB_TOKEN`); not committed to git
+- `.env.example` — Template for required environment variables
 
 ## Cursor Rules
 
@@ -24,7 +30,7 @@ These files define the core structure and behavior of this MCP server project. T
 
 ## Other
 
-- `.gitignore` — Ignores `node_modules` and `dist`
+- `.gitignore` — Ignores `node_modules`, `dist`, and `.env`
 
 ---
 
