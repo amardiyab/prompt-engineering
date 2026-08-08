@@ -1,0 +1,31 @@
+---
+globs: **/**
+alwaysApply: true
+---
+
+# Important Project Files
+
+These files define the core structure and behavior of this MCP server project. They should be included in every chat for context.
+
+## Configuration
+
+- `package.json` — Project metadata, scripts (`build`, `dev`), dependencies, and bin entry point
+- `tsconfig.json` — TypeScript compiler configuration
+- `pnpm-lock.yaml` — Locked dependency versions
+- `pnpm-workspace.yaml` — pnpm workspace settings (esbuild build approval)
+
+## Source
+
+- `src/main.ts` — MCP server entry point (Demo server with `add` tool and `greeting` resource)
+
+## Cursor Rules
+
+- `.cursor/rules/important-files.mdc` — This file; lists important project files
+
+## Other
+
+- `.gitignore` — Ignores `node_modules` and `dist`
+
+---
+
+When adding new important files to this project (e.g. new source modules, config files, or rules), update this `important-files.mdc` file to include them.
