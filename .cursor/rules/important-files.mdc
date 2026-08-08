@@ -16,7 +16,7 @@ These files define the core structure and behavior of this MCP server project. T
 
 ## Source
 
-- `src/main.ts` — MCP server entry point (GitHub tools for issues and pull requests)
+- `src/main.ts` — MCP server entry point with SSE transport (GitHub tools for issues and pull requests)
 - `src/github.ts` — Octokit wrapper functions for GitHub API calls
 
 ## Environment
