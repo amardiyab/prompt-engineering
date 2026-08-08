@@ -16,8 +16,14 @@ These files define the core structure and behavior of this MCP server project. T
 
 ## Source
 
-- `src/main.ts` — MCP server entry point with SSE transport (GitHub tools for issues and pull requests)
-- `src/github.ts` — Octokit wrapper functions for GitHub API calls
+- `src/main.ts` — MCP server entry point with SSE transport
+- `src/tools/index.ts` — Registers all MCP tools with the server
+- `src/tools/issues.ts` — MCP tools for GitHub issues
+- `src/tools/pull-requests.ts` — MCP tools for GitHub pull requests
+- `src/github-functions/client.ts` — Shared Octokit client instance
+- `src/github-functions/types.ts` — Shared types for GitHub API calls
+- `src/github-functions/issues.ts` — Octokit wrapper functions for issues
+- `src/github-functions/pull-requests.ts` — Octokit wrapper functions for pull requests
 
 ## Environment
 
