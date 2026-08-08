@@ -20,10 +20,12 @@ These files define the core structure and behavior of this MCP server project. T
 - `src/tools/index.ts` — Registers all MCP tools with the server
 - `src/tools/issues.ts` — MCP tools for GitHub issues
 - `src/tools/pull-requests.ts` — MCP tools for GitHub pull requests
+- `src/tools/actions.ts` — MCP tools for GitHub Actions
 - `src/github-functions/client.ts` — Shared Octokit client instance
 - `src/github-functions/types.ts` — Shared types for GitHub API calls
 - `src/github-functions/issues.ts` — Octokit wrapper functions for issues
 - `src/github-functions/pull-requests.ts` — Octokit wrapper functions for pull requests
+- `src/github-functions/actions.ts` — Octokit wrapper functions for GitHub Actions
 
 ## Environment
 

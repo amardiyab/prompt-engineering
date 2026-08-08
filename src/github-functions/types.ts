@@ -17,3 +17,12 @@ export type UpdatePullRequestParams = RepoParams & {
   body?: string;
   state?: "open" | "closed";
 };
+
+export type ListActionsParams = RepoParams & {
+  page?: number;
+  per_page?: number;
+};
+
+export type ActionParams = RepoParams & {
+  runId: number;
+};
